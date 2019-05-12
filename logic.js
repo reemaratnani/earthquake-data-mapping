@@ -29,7 +29,7 @@ function createFeatures(earthquakeData) {
         var color;
         x = feature.properties.mag
         if(x > 0 && x <= 1) {
-          color = "green";
+          color = "lightgreen";
         }
         else if (x > 1 && x <=2) {
           color = "greenyellow"
@@ -109,16 +109,16 @@ var myMap = L.map("map", {
   // Create a legend to display information about our map
   function getColor(m) {
 
-    return m < 1 ? 'green' :
+    return m > 5 ? 'red' :
 
-          m < 2  ? 'greenyellow' :
+          m > 4  ? 'coral' :
 
-          m < 3  ? 'gold' :
+          m > 3  ? 'orange' :
 
-          m < 4  ? 'orange' :
+          m > 2  ? 'gold' :
 
-          m < 5  ? 'coral' :
-                    'red';
+          m > 1  ? 'greenyellow' :
+                    'lightgreen';
 
 }
 
@@ -154,13 +154,4 @@ var myMap = L.map("map", {
   legend.addTo(myMap);
 
 
-
-
-
-  // Create a layer control
-  // Pass in our baseMaps and overlayMaps
-  // Add the layer control to the map
-  // L.control.layers(baseMaps, overlayMaps, {
-  //   collapsed: false
-  // }).addTo(myMap);
 }
