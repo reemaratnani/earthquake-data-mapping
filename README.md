@@ -4,7 +4,7 @@ https://reemaratnani.github.io/earthquake-data-mapping/
 
 # To visualize an earthquake data set
 
-1. Get data set from : https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php
+1. Data Source : https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php
 
 2. Import & Visualize the Data: 
 
