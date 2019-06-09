@@ -8,7 +8,7 @@ https://reemaratnani.github.io/earthquake-data-mapping/
 
 2. Import & Visualize the Data: 
 
--Create a map using Leaflet that plots all of the earthquakes from data set based on their longitude and latitude.
+-Created a map using Leaflet that plots all of the earthquakes from data set based on their longitude and latitude.
 
 
 -Included data markers, which reflect the magnitude of the earthquake in their size and color. Earthquakes with higher magnitudes appear larger and darker in color.
@@ -17,7 +17,7 @@ https://reemaratnani.github.io/earthquake-data-mapping/
 -Included popups that provide additional information about the earthquake when a marker is clicked.
 
 
--Created a legend that will provide context for your map data.
+-Created a legend that provide context for map data.
 
 
 
